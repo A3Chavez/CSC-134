@@ -1,7 +1,7 @@
 # CSC-134
-Course Work for Professor Sun
+Course Work for Professor Iraj Sabzevary
 
-Class: CSC 134, Fall 2021
+Class: CSC 134, Spring 2021
 
 University: CSUS
 
