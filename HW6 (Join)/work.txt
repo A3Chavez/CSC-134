@@ -1,0 +1,93 @@
+student classes:
+
+172-32-1176	37		// Johnson White, 			Database Programming
+213-46-8915	32		// Marjorie Green, 			Introduction to C programming
+267-41-2394	34		// Michael O'Leary, 		Intro to principles
+409-56-7008	37		// Abraham Bennet, 			Database Programming
+427-17-2319	34		// Ann Dull, 				Intro to principles
+472-27-2349	32		// Burt Gringlesby, 		Introduction to C programming
+486-29-1786	1		// Chastity Locksley, 		No Description
+527-72-3246	1		// Morningstar Greene, 		No Description
+648-92-1872	55		// Reginald Blotchet-Halls, No Description
+672-71-3249	3		// Akiko Yokomoto, 			Introduction to Computers
+712-45-1867	37		// Innes del Castillo, 		Database Programming
+846-92-7186	32		// Sheryl Hunter, 			Introduction to C programming
+998-72-3567	3		// Albert Greeenr, 			Introduction to Computers
+998-72-3567	55		// Albert Greeenr, 			No Description
+
+
+class table:
+'37','Database Programming'
+
+'3','Introduction to Computers'
+
+'32','Introduction to C programming'
+
+'34','Intro to principles'
+
+'14A','Operating systems'
+
+'1',''
+
+'55',''
+
+student table:
+ssn				lname			fname			phone			address					city 		  state		Zip		DOB 		age		Salary
+172-32-1176		White			Johnson			408 496-7223	10932 Bigge Rd.			Menlo Park		ma		94025	05-FEB-99	22		23000
+213-46-8915		Green			Marjorie						309 63rd St. #411		Oakland			CA		94618	25-FEB-89	32		20000
+238-95-7766		Gren			Cheryl			415 548-7723	589 Darwin Ln.			Berkeley		CA		94705						45000
+267-41-2394		O'Leary			Michael			409-56-7008 	22 Cleveland Av. #14	San Jose		CA		95128	12-FEB-95	26		32000
+409-56-7008		Bennet			Abraham							6223 Bateman St.		Berkeley		CA		94705	26-FEB-88	33		10000
+427-17-2319		Dull			Ann				415 836-7128	3410 Blonde St.			Palo Alto		CA		94301	23-FEB-93	28		30000
+472-27-2349		Gringlesby		Burt			707 938-6445	PO Box 792				Covelo			NY		95428	12-FEB-96	25		34000
+486-29-1786		Locksley		Chastity		415 585-4620	18 Broadway Av.			San Francisco	CA		94130	02-FEB-78	43		15500
+527-72-3246		Greene			Morningstar		615 297-2723	22 Graybar House Rd.	Nashville		TN		37215	11-FEB-95	26		25000
+648-92-1872		Blotchet-Halls	Reginald		503 745-6402	55 Hillsdale Bl.		Corvallis		OR		97330	01-FEB-77	44		43000
+672-71-3249		Yokomoto		Akiko			415 935-4228	3 Silver Ct.			Walnut Creek	CA		94595	22-FEB-94	27		35000
+712-45-1867		del Castillo	Innes			615 996-8275	2286 Cram Pl. #86		Ann Arbor		MI		48105	04-FEB-82	39		23500
+846-92-7186		Hunter			Sheryl			415 836-7128	3410 Blonde St.			Palo Alto		CA		94301	03-FEB-79	42		18000
+998-72-3567		Greeenr			Albert			801 826-0752	67 Seventh Av.			Salt Lake City	UT		84152	24-FEB-92	29		15000
+999-00-0000		Al				Cal				615 297-2723	22 Graybar House Rd.	Nashville		TN		37215	06-FEB-98	23		22000
+
+people with classes and people with no classes:
+ssn 			lname			fname			class desc
+-----------		-------			--------		-----------------------------
+172-32-1176		White			Johnson			Database Programming
+213-46-8915		Green			Marjorie		Introduction to C programming
+238-95-7766		Gren			Cheryl			No classes
+267-41-2394		O'Leary			Michael			Intro to principles
+409-56-7008		Bennet			Abraham			Database Programming
+427-17-2319		Dull			Ann				Intro to principles
+472-27-2349		Gringlesby		Burt			Introduction to C programming
+486-29-1786		Locksley		Chastity		No Description
+527-72-3246		Greene			Morningstar		No Description
+648-92-1872		Blotchet-Halls	Reginald		No Description
+672-71-3249		Yokomoto		Akiko			Introduction to Computers
+712-45-1867		del Castillo	Innes			Database Programming
+846-92-7186		Hunter			Sheryl			Introduction to C programming
+998-72-3567		Greeenr			Albert			Introduction to Computers
+998-72-3567		Greeenr			Albert			No Descrition
+999-00-0000		Al				Cal 			No classes
+
+two people dont have classes:
+238-95-7766		Gren			Cheryl
+999-00-0000		Al				Cal
+
+classes students are not taking:
+ssn 			lname			fname			class desc
+-----------		-------			--------		-----------------------------
+172-32-1176		White			Johnson			3,32,34,14A,1,55
+213-46-8915		Green			Marjorie		37,3,34,14A,1,55
+238-95-7766		Gren			Cheryl			37,3,32,34,14A,1,55
+267-41-2394		O'Leary			Michael			37,3,32,14A,1,55
+409-56-7008		Bennet			Abraham			3,32,34,14A,1,55
+427-17-2319		Dull			Ann				37,3,32,14A,1,55
+472-27-2349		Gringlesby		Burt			37,3,34,14A,1,55
+486-29-1786		Locksley		Chastity		37,3,32,34,14A,55
+527-72-3246		Greene			Morningstar		37,3,32,34,14A,55
+648-92-1872		Blotchet-Halls	Reginald		37,3,32,34,14A,1
+672-71-3249		Yokomoto		Akiko			37,32,34,14A,1,55
+712-45-1867		del Castillo	Innes			3,32,34,14A,1,55
+846-92-7186		Hunter			Sheryl			37,3,34,14A,1,55
+998-72-3567		Greeenr			Albert			37,32,34,14A,1
+999-00-0000		Al				Cal 			37,3,32,34,14A,1,55
